@@ -14,7 +14,7 @@
           "brush": {
             "type": "interval",
             "encodings": ["y"],
-            "resolve": "intersect_others"
+            "resolve": "intersect"
           }
         },
         "encoding": {
@@ -23,12 +23,12 @@
             "type": "ordinal",
             "sort": {
               "op": "min",
-              "field": "Population_ages_15_64_of_total",
+              "field": { "repeat":"column"},
               "order": "descending"
             }
           },
           "x": {
-            "field": "Population_ages_15_64_of_total",
+            "field": { "repeat": "column"},
             "type": "quantitative"
           },
           "color": {
@@ -45,7 +45,7 @@
       "selection": {
         "brush": {
           "type": "interval",
-          "resolve": "intersect_others"
+          "resolve": "intersect"
         }
         },
       "encoding": {
