@@ -18,7 +18,7 @@
     { "name": "static", "value": true,
       "bind": {"input": "checkbox"} },
     { "description": "throttles the number of nodes rendered; 77 covers 'all'",
-      "name": "numNodes", "value": 77 },
+      "name": "numNodes", "value": 200 },
     {
       "description": "State variable for active node fix status.",
       "name": "fix", "value": 0,
