@@ -5,7 +5,7 @@
   "data": {"url": "data/complaints.csv", "format": {"type": "csv"}},
   "mark": "line",
   "encoding": {
-    "x": {"timeUnit": "yearmonth", "field": "Date received", "type": "temporal"},
+    "x": {"timeUnit": "yearmonth", "field": "Date received", "type": "temporal", "axis":{"title": "Date Received"}},
     "y": {"aggregate": "count", "type": "quantitative"}
   }
 }

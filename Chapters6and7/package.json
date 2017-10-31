@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "canvas": "^1.6.7",
     "vega": "^3.0.7",
     "vega-embed": "^3.0.0-rc6",
     "vega-lite": "^2.0.0-rc5"

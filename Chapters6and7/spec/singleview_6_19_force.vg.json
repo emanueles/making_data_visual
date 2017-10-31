@@ -59,22 +59,14 @@
   "data": [
     {
       "name": "node-data",
-      "url": "data/miserables.json",
-      "format": {"type": "json", "property": "nodes"},
-      "transform": [        
-        { "type": "filter",
-        "expr": "datum.index < numNodes" }
-      ]
+      "url": "data/miserables.small.json",
+      "format": {"type": "json", "property": "nodes"}
     },
     {
       "name": "link-data",
-      "url": "data/miserables.json",
+      "url": "data/miserables.small.json",
       "format": {"type": "json", "property": "links"},
       "transform": [
-        { "type": "filter",
-        "expr": "datum.source < numNodes" },
-        { "type": "filter",
-        "expr": "datum.target < numNodes" }        
       ]
     }
   ],
