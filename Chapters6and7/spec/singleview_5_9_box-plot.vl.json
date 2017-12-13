@@ -6,14 +6,16 @@
     {
       "mark": "rule",
       "encoding": {
-        "x": {"field": "body-style", "type": "nominal"},
-        "y": {
+        "y": {"field": "body-style", "type": "nominal",
+          "axis": { "title": "Body Style"}
+        },
+        "x": {
           "aggregate": "min",
           "field": "city-mpg",
           "type": "quantitative",
           "axis": {"title": "City MPG"}
         },
-        "y2": {
+        "x2": {
           "aggregate": "max",
           "field": "city-mpg",
           "type": "quantitative"
@@ -23,8 +25,8 @@
     {
       "mark": "tick",
       "encoding": {
-        "x": {"field": "body-style", "type": "nominal"},
-        "y": {
+        "y": {"field": "body-style", "type": "nominal"},
+        "x": {
           "aggregate": "min",
           "field": "city-mpg",
           "type": "quantitative"
@@ -35,8 +37,8 @@
     {
       "mark": "tick",
       "encoding": {
-        "x": {"field": "body-style", "type": "nominal"},
-        "y": {
+        "y": {"field": "body-style", "type": "nominal"},
+        "x": {
           "aggregate": "max",
           "field": "city-mpg",
           "type": "quantitative"
@@ -47,13 +49,13 @@
     {
       "mark": "bar",
       "encoding": {
-        "x": {"field": "body-style", "type": "nominal"},
-        "y": {
+        "y": {"field": "body-style", "type": "nominal"},
+        "x": {
           "aggregate": "q1",
           "field": "city-mpg",
           "type": "quantitative"
         },
-        "y2": {
+        "x2": {
           "aggregate": "q3",
           "field": "city-mpg",
           "type": "quantitative"
@@ -64,8 +66,8 @@
     {
       "mark": "tick",
       "encoding": {
-        "x": {"field": "body-style", "type": "nominal"},
-        "y": {
+        "y": {"field": "body-style", "type": "nominal"},
+        "x": {
           "aggregate": "median",
           "field": "city-mpg",
           "type": "quantitative"

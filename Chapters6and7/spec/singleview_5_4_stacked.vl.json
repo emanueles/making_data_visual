@@ -4,12 +4,12 @@
   "mark": "bar",
   "data": {"url": "data/complaints.csv", "format": {"type": "csv"}},
   "transform": [{
-    "as": "relief",
+    "as": "Relief",
     "calculate": "indexof(datum['Company response to consumer'], 'relief') >= 0"
   }],
   "encoding": {
     "y": {"field": "Product", "type": "nominal"},
     "x": {"aggregate": "count",  "type": "quantitative"},
-    "color": {"field": "relief", "type": "nominal"}
+    "color": {"field": "Relief", "type": "nominal"}
   }
 }

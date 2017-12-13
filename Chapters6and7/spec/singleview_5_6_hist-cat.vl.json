@@ -7,7 +7,8 @@
       },
   "mark": "bar",
   "encoding": {
-    "x": {
+    "x": { "type": "quantitative", "aggregate": "count"},
+    "y": {
       "field": "body-style", 
       "type": "nominal", 
       "axis": {"title": "Body Style"},
@@ -16,7 +17,6 @@
         "op": "count",
         "order": "descending" 
         }      
-      },
-    "y": { "type": "quantitative", "aggregate": "count"}
+      }
   }
 }
