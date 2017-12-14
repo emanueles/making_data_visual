@@ -82,7 +82,7 @@
       "fill": "population",
       "orient": "none",
       "padding": 20,
-      "title": "population per state",
+      "title": "Population per state",
       "encode": {
         "legend": {
           "update": {"x": {"value": 320},"y": {"value": 0}}
@@ -101,7 +101,7 @@
       "orient": "none",
       "format": ".2%",
       "padding": 20,
-      "title": "Percent swe per state",
+      "title": "Percent engineers per state",
       "encode": {
         "legend": {
           "update": {"x": {"value": 320},"y": {"value": 220}}
@@ -167,7 +167,8 @@
           "type": "text",
           "encode": {
             "enter": {
-              "text": {"field": {"parent": "variable"}},
+              "text": "",
+              "_text":  {"field": {"parent": "variable"}},              
               "x": {"signal": "width/2"},
               "align": {"value": "center"}
             }

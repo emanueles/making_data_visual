@@ -61,7 +61,7 @@
         "enter": {
           "strokeWidth": {"value": "1"},
           "stroke": {"value": "#fff"},
-          "fill": {"value": "#ddd"},
+          "fill": {"value": "#efefef"},
           "path": {"field": "path"}
         }
       }

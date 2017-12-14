@@ -6,15 +6,20 @@
   "data": {
     "url": "data/cars.csv"
   },
-  "mark": "bar",
-  "encoding": {
+  "facet": {
     "row": {
       "field": "body-style",
-      "type": "nominal",
+      "type": "nominal",     
       "header": {
-        "title": "Body Style"
+        "title": "Body Style",         
+        "labelAngle": 360
+
       }
-    },
+    }
+  },
+  "spec":{
+  "mark": "bar",
+  "encoding": {
     "y": {
       "field": "fuel",
       "type": "nominal",
@@ -31,4 +36,5 @@
       }
     }
   }
+}
 }
