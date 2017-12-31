@@ -119,7 +119,7 @@
       "fill": "hurricanes",
       "orient": "none",
       "padding": 20,
-      "title": "hurricanes per state",
+      "title": "Hurricanes per state",
       "encode": {
         "legend": {
           "update": {"x": {"value": 320},"y": {"value": 420}}

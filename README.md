@@ -1,8 +1,18 @@
 ## Example files for the title:  
 	  
-# Making Data Visual, by Miriah Meyer
+# Making Data Visual, by Danyel Fisher and Miriah Meyer
 	  
-[![Making Data Visual, by Miriah Meyer](http://akamaicovers.oreilly.com/images/9781491928400/cat.gif)](https://www.safaribooksonline.com/library/view/title/9781491960493//)
+[![Making Data Visual](http://akamaicovers.oreilly.com/images/9781491928400/cat.gif)](https://www.safaribooksonline.com/library/view/title/9781491960493//)
+
+This section contains example files for the book "Making Data Visual". 
+
+* [Chapter 3](Chapter3) contains iPython notebooks that carry out the "IMDB" example
+* [Chapters 6 and 7](Chapters6and7) contains [Vega and Vega-Lite](http://vega.github.io) scripts that generate all figures in Chapter 6, and the interactive multi-views in Chapter 7. 
+* [Chapter9CaseStudy](Chapter9CaseStudy) contains the videos for Chapter 9 of the book that show how the Multeesum prototyped worked; the videos are in .mov format.
+
+12/31/2017: We are working on a website, http://makingdatavisual.github.io, which contains executable examples of the Chapter 6 & 7 figures. Check it out!
+
+## Fine Print
 	  
 The following applies to example files from material published by O’Reilly Media, Inc. Content from other publishers may include different rules of usage. Please refer to any additional usage rights explained in the actual example files or refer to the publisher’s website.
 	  
