@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "canvas": "^1.6.7",
-    "vega": "^3.0.7",
-    "vega-embed": "^3.0.0-rc6",
-    "vega-lite": "^2.0.0-rc5"
+    "canvas": "3.1.0",
+    "vega": "5.31.0",
+    "vega-embed": "6.29.0",
+    "vega-lite": "5.23.0"
   },
   "scripts": {
     "start": "python -m SimpleHTTPServer 8005",
